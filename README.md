@@ -1,6 +1,10 @@
 # -vue-mvvm-
 模仿vue数据劫持，实现mvvm框架
 
+### 运行
+打开index.html即可 
+
+
 模仿vue的mvvm实现方式，实现数据渲、改变data以及v-model
 ```
   script src="Tvue.js"></script>
