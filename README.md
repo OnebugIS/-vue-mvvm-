@@ -1,6 +1,8 @@
 # -vue-mvvm-
 模仿vue数据劫持，实现mvvm框架
 
+### 实现功能
+数据渲染 v-model data改变 vuex
 ### 运行
 打开index.html即可 
 
