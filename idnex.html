@@ -17,13 +17,19 @@
     </div>
   </body>
   <script>
-    let vm = new Tvue({
+    const vm = new Tvue({
       el: "#app",
       data: {
         message: '测试',
         name: 'Tvue'
-      }
+      },
+      created () {
+        setTimeout(() => {
+          this.name = 'created-name' 
+        }, 1000);;
+      },
     })
     vm._data.message = "修改"
+    vm.message = "将vm进行代理更改"
   </script>
 </html>
